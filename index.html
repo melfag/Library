@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+
+<body>
+    <h1>Library</h1>
+    <section class="storage">
+        <div class="zero-book">
+            <p class="span">You have <span>0</span> books in your Library, click below to add your first book</p>
+            <!--if the array is empty, then display this message-->
+        </div>
+
+        <button class="add-book-btn" data-add-book>Add Book</button>
+        <div class="add-new-book toggle-form-section">
+            <form>
+                <label for="title">Title</label>
+                <input type="text" class="add-title" name="title" required />
+
+                <label for="Author">Author</label>
+                <input type="text" class="add-author" name="author" required />
+
+                <label for="Page">Page</label>
+                <input type="text" class="add-page" name="pages" required />
+                <label for="ifRead">Have you read the book?</label>
+                <select name="read" id="read">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+
+                </select>
+                <button type="button" class="btn-add">Add item</button>
+            </form>
+        </div>
+    </section>
+
+
+
+    <section class="book-showcase">
+
+    </section>
+    <script src="/script.js"></script>
+</body>
+
+</html>

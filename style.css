@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: cursive;
+}
+
+body {
+	background-color: #8acfcf;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4rem;
+	padding: 1%;
+	margin-bottom: 5%;
+}
+
+section.menu {
+	display: inline;
+	height: 40vh;
+	text-align: center;
+	outline: black 1px solid;
+	padding: 2px;
+	font-size: 2rem;
+}
+
+div.flex-container {
+	display: flex;
+	justify-content: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+input,
+select {
+	border-radius: 0.6rem;
+}
+
+button.menu-btn {
+	font-size: 2rem;
+}
+
+section.storage {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section.book-showcase {
+	margin-top: 1rem;
+
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	gap: 3rem;
+	flex-wrap: wrap;
+}
+
+.book-display {
+	height: 20vh;
+	background-color: #8fecec;
+	border-radius: 0.5rem;
+
+	box-shadow: 0 4px 8px 0 rgba(150, 110, 110, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button.add-book-btn {
+	font-size: 2rem;
+	background-color: rgb(25, 179, 133);
+	color: white;
+	border: 1px solid black;
+}
+button.btn-add {
+	position: relative;
+	padding: 0.2rem;
+	top: 0.5rem;
+	width: 5rem;
+	margin: 0 auto;
+	background-color: rgb(112, 189, 11);
+	color: white;
+	border: 1px solid black;
+}
+
+.zero-book p {
+	padding: 0.5rem;
+	font-size: 1.5rem;
+}
+
+.add-new-book {
+	margin-top: 0.5rem;
+	padding: 1rem;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 0.6rem;
+}
+
+.toggle-form-section {
+	display: none;
+}
+
+.remove-first-button {
+	display: none;
+}
